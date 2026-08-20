@@ -90,7 +90,6 @@ touch templates/base.html
 touch templates/index.html
 touch templates/alunos.html
 touch templates/cadastrar.html
-touch templates/editar.html
 touch templates/sobre.html
 ```
 
@@ -102,7 +101,6 @@ templates/
 ├── index.html
 ├── alunos.html
 ├── cadastrar.html
-├── editar.html
 └── sobre.html
 ```
 
