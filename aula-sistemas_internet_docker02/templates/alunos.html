@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Alunos</h1>
+
+<a href="/cadastrar">Cadastrar aluno</a>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        {% for aluno in alunos %}
+
+        <tr>
+            <td>{{ aluno[0] }}</td>
+            <td>{{ aluno[1] }}</td>
+            <td>{{ aluno[2] }}</td>
+
+            <td>
+                <a href="/editar/{{ aluno[0] }}">Editar</a>
+                <a href="/excluir/{{ aluno[0] }}">Excluir</a>
+            </td>
+        </tr>
+
+        {% endfor %}
+
+    </tbody>
+</table>
+
+{% endblock %}

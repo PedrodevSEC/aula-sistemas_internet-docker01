@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Cadastrar aluno</h1>
+
+<form method="POST">
+
+    <label>Nome:</label>
+    <input type="text" name="nome" required>
+
+    <label>E-mail:</label>
+    <input type="email" name="email" required>
+
+    <button type="submit">
+        Cadastrar
+    </button>
+
+</form>
+
+{% endblock %}

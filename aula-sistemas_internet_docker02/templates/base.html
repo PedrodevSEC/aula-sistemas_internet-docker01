@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Escola</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <nav>
+        <a href="/">Início</a>
+        <a href="/alunos">Alunos</a>
+        <a href="/cadastrar">Cadastrar aluno</a>
+        <a href="/sobre">Sobre</a>
+    </nav>
+
+    <main>
+
+        {% block content %}
+        {% endblock %}
+
+    </main>
+
+</body>
+
+</html>

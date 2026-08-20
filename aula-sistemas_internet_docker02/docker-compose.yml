@@ -1,0 +1,21 @@
+services:
+
+  flask:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: flask-app
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgres
+
+  postgres:
+    build:
+      context: .
+      dockerfile: postgres/Dockerfile
+    container_name: postgres-alunos
+    environment:
+      POSTGRES_DB: escola
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 123456

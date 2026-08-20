@@ -1,0 +1,103 @@
+/* Configuração geral */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Menu */
+
+nav {
+    background-color: #222;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Conteúdo */
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+
+/* Tabelas */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
+
+/* Formulários */
+
+form {
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+/* Botões */
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+
+/* Links */
+
+a {
+    color: #0066cc;
+}
+
+nav a {
+    color: white;
+}
