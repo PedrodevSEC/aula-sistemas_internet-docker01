@@ -272,27 +272,3 @@ O container `minha-flask` não deverá mais aparecer na lista.
 | `docker stop`   | Para um container             |
 | `docker start`  | Inicia um container existente |
 | `docker rm`     | Remove um container           |
-
-## Fluxo completo
-
-```text
-                 Dockerfile
-                     │
-                     ▼
-              docker build
-                     │
-                     ▼
-              Imagem Docker
-                     │
-                     ▼
-                docker run
-                     │
-                     ▼
-              Container Flask
-                     │
-                     ▼
-              localhost:5000
-                     │
-                     ▼
-                 Navegador
-```
