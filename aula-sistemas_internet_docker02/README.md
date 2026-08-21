@@ -89,6 +89,7 @@ Crie os arquivos HTML:
 touch templates/base.html
 touch templates/index.html
 touch templates/alunos.html
+touch templates/editar.html
 touch templates/cadastrar.html
 touch templates/sobre.html
 ```
@@ -100,6 +101,7 @@ templates/
 ├── base.html
 ├── index.html
 ├── alunos.html
+├── editar.html
 ├── cadastrar.html
 └── sobre.html
 ```
